@@ -18,22 +18,15 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22.12.0'
+          node-version: '24'
 
-      - name: Enable Corepack and activate pnpm (fallback to npm)
-        run: |
-          set -e
-          corepack enable || true
-          corepack prepare pnpm@12.3.4 --activate || npm i -g pnpm@12.3.4
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 12.3.4
 
-      - name: Install dependencies (with fallbacks)
-        run: |
-          set -e
-          # Ensure pnpm is available (some runners have Corepack issues)
-          npm i -g pnpm@12.3.4 || true
-          pnpm --version || corepack prepare pnpm@12.3.4 --activate
-          # Try strict install first, fall back to a normal install if frozen lock fails
-          pnpm install --frozen-lockfile || pnpm install
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
 
       - name: Build
         run: |
