@@ -1,24 +1,16 @@
 # Trưa Nay Ăn Gì 🍜
 
-🌐 **Website chính thức / Official website: [truanayangi.com](https://truanayangi.com/)**
+**Tiếng Việt** · [English](README.en.md)
 
-CS-style lunch roulette — open a case, choose lunch.
+**Website chính thức: [truanayangi.com](https://truanayangi.com/)**
 
-**GitHub Pages entry point:** https://truanayangi-com.github.io/truanayangi/ → https://truanayangi.com/
+Chưa biết ăn gì trưa nay? Mở hòm, quay món và để bữa trưa có chút bất ngờ.
 
-This repository was transferred from `nagisanzenin/truanayangi`, preserving its Git history and community. The current application is a static frontend with **no account, login, backend or production API dependency**. Preferences, custom dishes and browser-local spin totals use versioned cookies, not server storage. Clearing cookies resets them. The historical global community count belongs to the main website, not this local app.
+Đây là phiên bản cộng đồng chạy trên máy của bạn, không cần đăng nhập hay backend. Bạn có thể lọc món, thêm danh sách món riêng và lưu sở thích ngay trong trình duyệt.
 
-## Đóng góp / Contributing
+## Chạy trên máy
 
-Mọi người đều có thể [mở issue](https://github.com/truanayangi-com/truanayangi/issues/new) hoặc fork repo rồi [mở pull request vào `main`](https://github.com/truanayangi-com/truanayangi/compare). Tiếng Việt và tiếng Anh đều được; draft PR để trao đổi hoặc nhờ hỗ trợ cũng được chào đón.
-
-Không cần issue được duyệt trước, ticket nội bộ, enterprise membership, lời mời vào tổ chức, estimate hay project board. Không có template bắt buộc hoặc yêu cầu nhiều người phê duyệt. Hãy mô tả ngắn vấn đề hoặc thay đổi; maintainer sẽ review trước khi merge và có thể giúp kiểm tra.
-
-Kiểm tra tương xứng với thay đổi: sửa tài liệu chỉ cần đọc lại; thay đổi code nên chạy `pnpm test`, `pnpm build` và kiểm tra thao tác liên quan khi có thể. Ghi rõ phần chưa kiểm tra để maintainer hỗ trợ. Giữ secrets và code riêng tư ngoài repo, giữ nguồn ghi công, và tuân theo phạm vi ứng dụng local bên dưới.
-
-Community issues and fork PRs to `main` are welcome in Vietnamese or English. A short description and checks appropriate to the change are enough to start; maintainers can help and review before merging.
-
-## Chạy local / Run locally
+Cần **Node.js 22.12+** và phiên bản **pnpm** ghi trong [package.json](package.json).
 
 ```sh
 git clone https://github.com/truanayangi-com/truanayangi.git
@@ -27,28 +19,32 @@ pnpm install --frozen-lockfile
 pnpm start
 ```
 
-Mở **http://127.0.0.1:5173**. Nếu cổng đang bận, dùng `pnpm start --port 5188` rồi mở http://127.0.0.1:5188. Không cần `.env`, OAuth client, database, tài khoản cloud hay backend. Dùng Node.js 22.12+ và phiên bản pnpm ghi trong package.json.
+Mở [127.0.0.1:5173](http://127.0.0.1:5173). Không cần tạo `.env` hay cấu hình dịch vụ bên ngoài. Nếu cổng đang bận, chạy `pnpm start --port 5188`.
 
-Ứng dụng tự lưu bộ lọc, ngôn ngữ, âm thanh, danh sách món, món gần nhất và lượt quay bằng cookie. Thay đổi danh sách món được lưu ngay, không có nút đăng nhập hoặc yêu cầu bấm lưu. Lượt quay chỉ thuộc trình duyệt này. Nếu cookie bị chặn hoặc dữ liệu quá lớn, giao diện báo chưa lưu.
-
-The dev and preview servers bind to **127.0.0.1** and use fixed ports. After dependencies are installed, the app needs no remote API: scripts, images and sounds are served locally. Maps, GrabFood and GitHub links only open external websites when clicked.
+Các lệnh phát triển:
 
 ```sh
-pnpm test
-pnpm build
-pnpm preview
+pnpm test       # Chạy kiểm tra
+pnpm build      # Tạo bản build
+pnpm preview    # Xem bản build tại http://127.0.0.1:4173
 ```
 
-The production build can be previewed at http://127.0.0.1:4173. Use a local HTTP server rather than opening `index.html` with `file://`, so browser cookies and JavaScript modules work correctly.
+Máy chủ chỉ lắng nghe trên `127.0.0.1`. Sau khi cài dependencies, ứng dụng tải tài nguyên từ máy; các liên kết bên ngoài chỉ mở khi bạn bấm vào.
 
-## GitHub Pages
+## Dữ liệu của bạn
 
-GitHub Pages remains a redirect to https://truanayangi.com/. Publish **only `pages-redirect/`** to `gh-pages`; never deploy the local app build there. The actual production website stays on Cloudflare + GCP and uses the three private repositories. There is no custom Actions pipeline, Entire integration or GitHub Projects requirement.
+Sở thích, danh sách món và lượt quay tự lưu bằng cookie trong trình duyệt hiện tại. Xóa cookie sẽ đặt lại dữ liệu; dữ liệu không đồng bộ giữa các thiết bị. Lượt quay hiển thị là của riêng trình duyệt này.
 
-## Storage
+Nếu cookie bị chặn hoặc danh sách món quá lớn, ứng dụng sẽ báo chưa lưu.
 
-Cookies are host-only, scoped to the application path, `SameSite=Lax`, `Secure` on HTTPS, and expire after one year. Each encoded value is bounded to 3,500 bytes; oversized custom pools are rejected without replacing the previous saved pool. Some browser storage policies can shorten retention. Save only meal preferences, never sensitive personal data. Cookie contents are sent with requests to the static host by the browser. There is no cross-device sync or shared global counter in this version.
+## Đóng góp
 
-The three production repositories (`web`, `server`, `infrastructure`) remain private. No production database, secrets or private Git history is included here. Backend files can still be found in the preserved historical commits, but are not used or deployed by this app.
+Chào đón mọi người [báo lỗi, đề xuất ý tưởng](https://github.com/truanayangi-com/truanayangi/issues/new) hoặc fork repo và [gửi PR vào `main`](https://github.com/truanayangi-com/truanayangi/compare). Bạn có thể dùng tiếng Việt hoặc tiếng Anh, mở draft PR để trao đổi, không cần được duyệt issue trước hay tham gia tổ chức.
 
-See [ATTRIBUTION.md](ATTRIBUTION.md) for original authorship and third-party assets.
+Chỉ cần mô tả rõ thay đổi và cách đã kiểm tra. Với thay đổi code, hãy chạy test và build khi có thể; maintainer sẽ hỗ trợ và review trước khi merge. Giữ thông tin bí mật ngoài repo và ghi công nguồn sử dụng.
+
+## Nguồn gốc
+
+Repo được chuyển từ `nagisanzenin/truanayangi`, giữ nguyên lịch sử Git và đóng góp cộng đồng. Xem [ghi công tác giả và tài nguyên](ATTRIBUTION.md).
+
+[GitHub Pages](https://truanayangi-com.github.io/truanayangi/) chuyển hướng đến website chính thức. Chỉ thư mục `pages-redirect/` được xuất bản lên `gh-pages`; mã ứng dụng trong repo dành cho việc chạy trên máy.
