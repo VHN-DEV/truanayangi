@@ -37,6 +37,10 @@ Sở thích, danh sách món và lượt quay tự lưu bằng cookie trong trì
 
 Nếu cookie bị chặn hoặc danh sách món quá lớn, ứng dụng sẽ báo chưa lưu.
 
+## GitHub Pages và website chính
+
+GitHub Pages chỉ chuyển hướng đến https://truanayangi.com/. Đây là cách giữ chức năng đồng nhất: người truy cập luôn dùng cùng frontend production, API và cookie đăng nhập cùng origin, thay vì một ứng dụng tĩnh thứ hai dễ lệch tính năng hoặc mất đăng nhập khi tải lại. Chỉ xuất bản `pages-redirect/` lên `gh-pages`; không đưa bản build local lên đó. Các sửa đổi UI tĩnh và chuyển động vòng quay dùng chung cần được cập nhật đồng thời ở repo này và frontend production riêng tư.
+
 ## Đóng góp
 
 Chào đón mọi người [báo lỗi, đề xuất ý tưởng](https://github.com/truanayangi-com/truanayangi/issues/new) hoặc fork repo và [gửi PR vào `main`](https://github.com/truanayangi-com/truanayangi/compare). Bạn có thể dùng tiếng Việt hoặc tiếng Anh, mở draft PR để trao đổi, không cần được duyệt issue trước hay tham gia tổ chức.

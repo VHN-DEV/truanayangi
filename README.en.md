@@ -37,6 +37,10 @@ Preferences, meal lists, and spin counts are saved automatically in cookies in y
 
 If cookies are blocked or a meal list is too large, the app will let you know it could not save.
 
+## GitHub Pages and the official website
+
+GitHub Pages only redirects to https://truanayangi.com/. This keeps functionality consistent: visitors always use the same production frontend, API, and same-origin login cookie instead of a second static app that can drift or lose authentication on refresh. Publish only `pages-redirect/` to `gh-pages`; do not deploy the local build there. Shared static UI and reel-motion fixes should be updated in both this repository and the private production frontend.
+
 ## Contributing
 
 Everyone is welcome to [report bugs, suggest ideas](https://github.com/truanayangi-com/truanayangi/issues/new), or fork the repo and [submit a PR to `main`](https://github.com/truanayangi-com/truanayangi/compare). Use Vietnamese or English, and feel free to open a draft PR for discussion. No approved issue or organization membership is required.

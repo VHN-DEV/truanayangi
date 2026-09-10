@@ -59,7 +59,8 @@ export function priceRarity(priceInThousands:number){return priceInThousands<=40
 
 // Cosmetic motion is independent of reward selection. Every profile is monotonic
 // and finishes at zero velocity; vary travel, duration and drag between rolls.
-export function createSpinProfile(random = Math.random) {
+export function createSpinProfile(random = Math.random, reducedMotion = false) {
+ if(reducedMotion)return {durationMs:4000+Math.floor(random()*1001),tiles:10+Math.floor(random()*4),friction:2.7+random()*.6};
  return {durationMs:7500+Math.floor(random()*2001),tiles:30+Math.floor(random()*11),friction:2.7+random()*.6};
 }
 export function spinProgress(progress:number,friction:number) {
