@@ -1,8 +1,9 @@
 # Trưa Nay Ăn Gì 🍜
 
+🌐 **Website chính thức / Official website: [truanayangi.com](https://truanayangi.com/)**
+
 CS-style lunch roulette — open a case, choose lunch.
 
-**Main website:** https://truanayangi.com (Cloudflare + GCP).  
 **GitHub Pages entry point:** https://truanayangi-com.github.io/truanayangi/ → https://truanayangi.com/
 
 This repository was transferred from `nagisanzenin/truanayangi`, preserving its Git history and community. The current application is a static frontend with **no account, login, backend or production API dependency**. Preferences, custom dishes and browser-local spin totals use versioned cookies, not server storage. Clearing cookies resets them. The historical global community count belongs to the main website, not this local app.
