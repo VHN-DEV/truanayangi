@@ -13,7 +13,7 @@ This is the community version that runs on your computer, with no login or backe
 You need **Node.js 22.12+** and the **pnpm** version specified in [package.json](package.json).
 
 ```sh
-git clone https://github.com/truanayangi-com/truanayangi.git
+git clone https://github.com/VHN-DEV/truanayangi.git
 cd truanayangi
 pnpm install --frozen-lockfile
 pnpm start
@@ -43,7 +43,7 @@ GitHub Pages only redirects to https://truanayangi.com/. This keeps functionalit
 
 ## Contributing
 
-Everyone is welcome to [report bugs, suggest ideas](https://github.com/truanayangi-com/truanayangi/issues/new), or fork the repo and [submit a PR to `main`](https://github.com/truanayangi-com/truanayangi/compare). Use Vietnamese or English, and feel free to open a draft PR for discussion. No approved issue or organization membership is required.
+Everyone is welcome to [report bugs, suggest ideas](https://github.com/VHN-DEV/truanayangi/issues/new), or fork the repo and [submit a PR to `main`](https://github.com/VHN-DEV/truanayangi/compare). Use Vietnamese or English, and feel free to open a draft PR for discussion. No approved issue or organization membership is required.
 
 Describe your change and how you checked it. For code changes, run tests and a build when possible; maintainers can help and will review before merging. Keep secrets out of the repo and credit the sources you use.
 
@@ -51,4 +51,4 @@ Describe your change and how you checked it. For code changes, run tests and a b
 
 This repository was transferred from `nagisanzenin/truanayangi`, preserving its Git history and community contributions. See [author and asset attribution](ATTRIBUTION.md).
 
-[GitHub Pages](https://truanayangi-com.github.io/truanayangi/) redirects to the official website. Only `pages-redirect/` is published to `gh-pages`; the application source in this repo is for local use.
+[GitHub Pages](https://VHN-DEV.github.io/truanayangi/) redirects to the official website. Only `pages-redirect/` is published to `gh-pages`; the application source in this repo is for local use.

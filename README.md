@@ -11,7 +11,7 @@ Chưa biết ăn gì trưa nay? Mở hòm, quay món và để bữa trưa có c
 Cần **Node.js 22.12+** và phiên bản **pnpm** ghi trong [package.json](package.json).
 
 ```sh
-git clone https://github.com/truanayangi-com/truanayangi.git
+git clone https://github.com/VHN-DEV/truanayangi.git
 cd truanayangi
 pnpm install --frozen-lockfile
 pnpm start
