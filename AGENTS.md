@@ -1,6 +1,8 @@
 # Community frontend
 
 - This public repository preserves the history of nagisanzenin/truanayangi, transferred with Walter's explicit authorization on 2026-09-10.
+- Keep community participation open: welcome issues and fork PRs to `main` in Vietnamese or English, including draft PRs. Do not require a prior approved issue, internal ticket, enterprise membership, organization invitation, estimates, project boards, mandatory templates or multiple approvals.
+- Maintainers review changes before merging and may help contributors with checks proportional to the change. Keep repository settings and contribution guidance community-friendly; enterprise-only policies belong to the private repositories.
 - Current code is a standalone static frontend. No backend, OAuth/login, production API clients, cloud credentials or infrastructure state.
 - Use pnpm, compatible current stable packages and committed lockfiles. Build locally; do not add Entire, GitHub Projects or a CI pipeline for MVP.
 - Store preferences in bounded, versioned, host-only cookies. Validate imported/untrusted values and handle unavailable/full storage visibly.

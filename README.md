@@ -7,6 +7,16 @@ CS-style lunch roulette — open a case, choose lunch.
 
 This repository was transferred from `nagisanzenin/truanayangi`, preserving its Git history and community. The current application is a static frontend with **no account, login, backend or production API dependency**. Preferences, custom dishes and browser-local spin totals use versioned cookies, not server storage. Clearing cookies resets them. The historical global community count belongs to the main website, not this local app.
 
+## Đóng góp / Contributing
+
+Mọi người đều có thể [mở issue](https://github.com/truanayangi-com/truanayangi/issues/new) hoặc fork repo rồi [mở pull request vào `main`](https://github.com/truanayangi-com/truanayangi/compare). Tiếng Việt và tiếng Anh đều được; draft PR để trao đổi hoặc nhờ hỗ trợ cũng được chào đón.
+
+Không cần issue được duyệt trước, ticket nội bộ, enterprise membership, lời mời vào tổ chức, estimate hay project board. Không có template bắt buộc hoặc yêu cầu nhiều người phê duyệt. Hãy mô tả ngắn vấn đề hoặc thay đổi; maintainer sẽ review trước khi merge và có thể giúp kiểm tra.
+
+Kiểm tra tương xứng với thay đổi: sửa tài liệu chỉ cần đọc lại; thay đổi code nên chạy `pnpm test`, `pnpm build` và kiểm tra thao tác liên quan khi có thể. Ghi rõ phần chưa kiểm tra để maintainer hỗ trợ. Giữ secrets và code riêng tư ngoài repo, giữ nguồn ghi công, và tuân theo phạm vi ứng dụng local bên dưới.
+
+Community issues and fork PRs to `main` are welcome in Vietnamese or English. A short description and checks appropriate to the change are enough to start; maintainers can help and review before merging.
+
 ## Chạy local / Run locally
 
 ```sh
