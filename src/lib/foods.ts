@@ -72,7 +72,7 @@ export const foods:Food[]=[
     "price": 45,
     "image": 9,
     "veg": false,
-    "quip": ""
+    "quip": "Vàng ươm rực rỡ, xua tan muộn phiền."
   },
   {
     "name": "Bún bò Huế",
@@ -80,7 +80,7 @@ export const foods:Food[]=[
     "price": 50,
     "image": 10,
     "veg": false,
-    "quip": ""
+    "quip": "Đậm đà chuẩn vị, đánh thức giác quan."
   },
   {
     "name": "Hủ tiếu",
@@ -88,7 +88,7 @@ export const foods:Food[]=[
     "price": 40,
     "image": 11,
     "veg": false,
-    "quip": ""
+    "quip": "Nhanh, gọn, lẹ cho một buổi trưa bận rộn."
   },
   {
     "name": "Mì Quảng",
@@ -96,7 +96,7 @@ export const foods:Food[]=[
     "price": 45,
     "image": 12,
     "veg": false,
-    "quip": ""
+    "quip": "Nước dùng xâm xấp, đậm đà tình miền Trung."
   },
   {
     "name": "Bún thịt nướng",
@@ -104,7 +104,7 @@ export const foods:Food[]=[
     "price": 40,
     "image": 13,
     "veg": false,
-    "quip": ""
+    "quip": "Rưới nước mắm vào và bắt đầu combat."
   },
   {
     "name": "Bánh cuốn",
@@ -112,7 +112,7 @@ export const foods:Food[]=[
     "price": 35,
     "image": 14,
     "veg": false,
-    "quip": ""
+    "quip": "Mỏng mỏng êm êm, lướt qua cơn đói."
   },
   {
     "name": "Bún đậu mắm tôm",
@@ -120,7 +120,7 @@ export const foods:Food[]=[
     "price": 55,
     "image": 15,
     "veg": false,
-    "quip": ""
+    "quip": "Đam mê đích thực. Chuẩn bị sẵn kẹo gum."
   },
   {
     "name": "Cơm rang dưa bò",
@@ -128,7 +128,7 @@ export const foods:Food[]=[
     "price": 50,
     "image": 16,
     "veg": false,
-    "quip": ""
+    "quip": "Hạt cơm săn rỏi, bò dưa đỉnh cao."
   },
   {
     "name": "Bò lúc lắc",
@@ -136,7 +136,7 @@ export const foods:Food[]=[
     "price": 85,
     "image": 17,
     "veg": false,
-    "quip": ""
+    "quip": "Lúc lắc cái tay, có ngay bữa xịn."
   },
   {
     "name": "Bánh xèo",
@@ -144,7 +144,7 @@ export const foods:Food[]=[
     "price": 50,
     "image": 18,
     "veg": false,
-    "quip": ""
+    "quip": "Giòn rụm âm thanh của sự hạnh phúc."
   },
   {
     "name": "Bánh đa cua",
@@ -152,7 +152,7 @@ export const foods:Food[]=[
     "price": 45,
     "image": 19,
     "veg": false,
-    "quip": ""
+    "quip": "Sợi bánh đa đỏ, gạch cua béo ngậy."
   },
   {
     "name": "Mì xào bò",
@@ -160,7 +160,7 @@ export const foods:Food[]=[
     "price": 45,
     "image": 20,
     "veg": false,
-    "quip": ""
+    "quip": "Cứu đói cấp tốc, nạp lại năng lượng."
   },
   {
     "name": "Bún cá",
@@ -168,7 +168,7 @@ export const foods:Food[]=[
     "price": 40,
     "image": 21,
     "veg": false,
-    "quip": ""
+    "quip": "Chua thanh dịu nhẹ, mát lành buổi trưa."
   },
   {
     "name": "Gỏi cuốn",
@@ -176,7 +176,7 @@ export const foods:Food[]=[
     "price": 35,
     "image": 22,
     "veg": false,
-    "quip": ""
+    "quip": "Cuốn nhẹ nhàng, ăn không sợ béo."
   },
   {
     "name": "Cháo sườn",
@@ -184,7 +184,7 @@ export const foods:Food[]=[
     "price": 25,
     "image": 23,
     "veg": false,
-    "quip": ""
+    "quip": "Mịn màng êm bụng, xoa dịu tâm hồn."
   },
   {
     "name": "Ramen",
@@ -192,7 +192,7 @@ export const foods:Food[]=[
     "price": 100,
     "image": 24,
     "veg": false,
-    "quip": ""
+    "quip": "Húp trọn nước dùng đậm đà phong cách Nhật."
   },
   {
     "name": "Udon",
@@ -200,7 +200,7 @@ export const foods:Food[]=[
     "price": 85,
     "image": 25,
     "veg": false,
-    "quip": ""
+    "quip": "Sợi mì dai giòn, ăn là mê ngay."
   },
   {
     "name": "Cơm cà ri Nhật",
@@ -208,7 +208,7 @@ export const foods:Food[]=[
     "price": 90,
     "image": 26,
     "veg": false,
-    "quip": ""
+    "quip": "Sốt sánh mịn, thơm lừng vị cà ri."
   },
   {
     "name": "Tteokbokki",
@@ -216,7 +216,7 @@ export const foods:Food[]=[
     "price": 65,
     "image": 27,
     "veg": false,
-    "quip": ""
+    "quip": "Cay nồng xuýt xoat, chuẩn vị Seoul."
   },
   {
     "name": "Burger bò",
@@ -224,7 +224,7 @@ export const foods:Food[]=[
     "price": 65,
     "image": 28,
     "veg": false,
-    "quip": ""
+    "quip": "Cắn một miếng ngập tràn vị thịt."
   },
   {
     "name": "Mì Ý bò bằm",
@@ -232,7 +232,7 @@ export const foods:Food[]=[
     "price": 80,
     "image": 29,
     "veg": false,
-    "quip": ""
+    "quip": "Chuẩn gu Âu Mỹ, ngon khó cưỡng."
   },
   {
     "name": "Pad Thai",
@@ -240,7 +240,7 @@ export const foods:Food[]=[
     "price": 75,
     "image": 30,
     "veg": false,
-    "quip": ""
+    "quip": "Chua ngọt hài hòa, đậm đà vị Thái."
   },
   {
     "name": "Mì Tom Yum",
@@ -248,7 +248,7 @@ export const foods:Food[]=[
     "price": 80,
     "image": 31,
     "veg": false,
-    "quip": ""
+    "quip": "Chua cay bùng nổ, tỉnh cả người."
   },
   {
     "name": "Lẩu nấm chay",
@@ -256,7 +256,7 @@ export const foods:Food[]=[
     "price": 120,
     "image": 32,
     "veg": true,
-    "quip": ""
+    "quip": "Thanh lọc cơ thể, khỏe mạnh từ bên trong."
   },
   {
     "name": "Mì nấm chay",
@@ -264,7 +264,7 @@ export const foods:Food[]=[
     "price": 40,
     "image": 33,
     "veg": true,
-    "quip": ""
+    "quip": "Món chay thanh nhẹ, ngon miệng bất ngờ."
   },
   {
     "name": "Bánh mì chay",
@@ -272,7 +272,7 @@ export const foods:Food[]=[
     "price": 25,
     "image": 34,
     "veg": true,
-    "quip": ""
+    "quip": "Nhanh gọn, xanh sạch cho ngày chay."
   },
   {
     "name": "Gỏi cuốn chay",
@@ -280,154 +280,154 @@ export const foods:Food[]=[
     "price": 35,
     "image": 35,
     "veg": true,
-    "quip": ""
+    "quip": "Tươi mát dịu nhẹ, ăn hoài không chán."
   },
   {
     "name": "Cơm bình dân",
     "price": 40,
     "image": 36,
     "sub": "Chọn món mặn, rau & canh",
-    "quip": ""
+    "quip": "Cứu tinh ví tiền những ngày cuối tháng."
   },
   {
     "name": "Cơm gà xối mỡ",
     "price": 55,
     "image": 39,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Da gà giòn rụm, vàng ươm hấp dẫn."
   },
   {
     "name": "Bún riêu",
     "price": 45,
     "image": 42,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Vị chua thanh mát, riêu cua chất lượng."
   },
   {
     "name": "Bánh canh cua",
     "price": 60,
     "image": 43,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Nước dùng sánh đậm, thịt cua thơm ngon."
   },
   {
     "name": "Bò né",
     "price": 75,
     "image": 44,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Xèo xèo nóng hổi, né nhanh còn ăn."
   },
   {
     "name": "Cơm gà teriyaki",
     "price": 85,
     "image": 45,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Sốt đậm đà ngọt dịu, ăn là ghiền."
   },
   {
     "name": "Cơm heo chiên xù",
     "price": 95,
     "image": 46,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Tonkatsu giòn rụm, ngon đúng điệu."
   },
   {
     "name": "Cơm chiên hải sản",
     "price": 85,
     "image": 47,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Đầy ắp hải sản, tơi xốp hạt cơm."
   },
   {
     "name": "Mì vịt tiềm",
     "price": 95,
     "image": 48,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Thịt vịt mềm thơm, bổ dưỡng từng hụm."
   },
   {
     "name": "Kimbap",
     "price": 70,
     "image": 49,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Cuộn tròn đầy đặn, tiện lợi ăn nhanh."
   },
   {
     "name": "Mì trộn Hàn Quốc",
     "price": 75,
     "image": 50,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Cay cay ngọt ngọt, trộn đều ăn ngay."
   },
   {
     "name": "Salad ức gà",
     "price": 85,
     "image": 51,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Eat clean lành mạnh, giữ dáng giữ da."
   },
   {
     "name": "Mì Ý sốt kem bacon",
     "price": 115,
     "image": 52,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Béo ngậy thơm lừng, chiều chuộng bản thân."
   },
   {
     "name": "Lasagna bò",
     "price": 125,
     "image": 53,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Từng lớp phô mai và thịt bò đắm đuối."
   },
   {
     "name": "Burger bò phô mai & khoai tây",
     "price": 120,
     "image": 54,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Combo thần thánh, nạp đầy năng lượng."
   },
   {
     "name": "Pizza pepperoni",
     "price": 120,
     "image": 55,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Xúc xích đậm vị, phô mai kéo sợi."
   },
   {
     "name": "Cơm bò gyudon",
     "price": 110,
     "image": 56,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Thịt bò mềm mọng, đậm đà chuẩn Nhật."
   },
   {
     "name": "Cơm cá saba nướng",
     "price": 110,
     "image": 57,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Cá nướng thơm phức, giàu Omega-3."
   },
   {
     "name": "Mì soba Nhật",
     "price": 110,
     "image": 58,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Thanh mát nhẹ nhàng, thanh lọc tâm trí."
   },
   {
     "name": "Cơm cà ri Thái",
     "price": 110,
     "image": 59,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Cà ri xanh đỏ, béo cốt dừa cay nồng."
   },
   {
     "name": "Salad cá ngừ",
     "price": 110,
     "image": 60,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Tươi ngon nhẹ bụng, chuẩn gu giữ dáng."
   },
   {
     "name": "Salad quinoa đậu gà",
@@ -435,77 +435,77 @@ export const foods:Food[]=[
     "image": 61,
     "veg": true,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Siêu thực phẩm chay, năng lượng dồi dào."
   },
   {
     "name": "Bò bít tết",
     "price": 180,
     "image": 62,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Thịt bò mọng nước, tự thưởng bản thân."
   },
   {
     "name": "Cá hồi áp chảo",
     "price": 190,
     "image": 63,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Da giòn thịt mềm, bữa trưa thượng hạng."
   },
   {
     "name": "Cơm lươn Nhật",
     "price": 180,
     "image": 64,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Lươn nướng sốt Unagi, đẳng cấp ẩm thực."
   },
   {
     "name": "Cơm bò nướng Hàn",
     "price": 150,
     "image": 65,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Bulgogi đậm vị, đưa cơm hết nấc."
   },
   {
     "name": "Cơm cá hồi teriyaki",
     "price": 150,
     "image": 66,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Cá hồi áp chảo quyện sốt Teriyaki."
   },
   {
     "name": "Poke cá hồi",
     "price": 160,
     "image": 67,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Tươi ngon chuẩn Hawaii, đủ chất trọn vẹn."
   },
   {
     "name": "Sườn nướng BBQ",
     "price": 230,
     "image": 68,
     "sub": "Kèm cơm hoặc khoai tây • Phần một người",
-    "quip": ""
+    "quip": "Đậm đà sốt BBQ, ăn tới đâu mê tới đó."
   },
   {
     "name": "Pizza hải sản",
     "price": 160,
     "image": 69,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Tôm mực ngập tràn trên nền phô mai."
   },
   {
     "name": "Mì Ý hải sản",
     "price": 160,
     "image": 70,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Hương vị biển cả quyện trong từng sợi mì."
   },
   {
     "name": "Lẩu bò cá nhân",
     "price": 160,
     "image": 71,
     "sub": "Phần ăn trưa / người",
-    "quip": ""
+    "quip": "Một mình vẫn có thể xì xụp lẩu ngon."
   },
   {
     "name": "Phở gà",
@@ -513,7 +513,7 @@ export const foods:Food[]=[
     "sub": "Tô thường • Việt Nam",
     "veg": false,
     "image": 72,
-    "quip": ""
+    "quip": "Nước dùng thanh ngọt, thịt gà dai ngon."
   },
   {
     "name": "Phở cuốn",
@@ -521,7 +521,7 @@ export const foods:Food[]=[
     "sub": "Phần 10 cuốn • Việt Nam",
     "veg": false,
     "image": 73,
-    "quip": ""
+    "quip": "Bánh phở dẻo mát, thịt bò đậm đà."
   },
   {
     "name": "Bún mọc",
@@ -529,7 +529,7 @@ export const foods:Food[]=[
     "sub": "Tô thường • Việt Nam",
     "veg": false,
     "image": 74,
-    "quip": ""
+    "quip": "Viên mọc giòn sần sật, thanh nhẹ dễ ăn."
   },
   {
     "name": "Bún măng vịt",
@@ -537,7 +537,7 @@ export const foods:Food[]=[
     "sub": "Tô có thịt vịt • Việt Nam",
     "veg": false,
     "image": 75,
-    "quip": ""
+    "quip": "Măng giòn chua dịu, thịt vịt béo ngậy."
   },
   {
     "name": "Bún bò Nam Bộ",
@@ -545,7 +545,7 @@ export const foods:Food[]=[
     "sub": "Bún trộn bò • Việt Nam",
     "veg": false,
     "image": 76,
-    "quip": ""
+    "quip": "Trộn đều nước mắm, hành phi thơm phức."
   },
   {
     "name": "Bún mắm",
@@ -553,7 +553,7 @@ export const foods:Food[]=[
     "sub": "Tô hải sản • Việt Nam",
     "veg": false,
     "image": 77,
-    "quip": ""
+    "quip": "Đậm đà vị miền Tây, ăn là nhớ mãi."
   },
   {
     "name": "Bún chay",
@@ -561,7 +561,7 @@ export const foods:Food[]=[
     "sub": "Đậu hũ & rau • Việt Nam",
     "veg": true,
     "image": 78,
-    "quip": ""
+    "quip": "Thanh tịnh nhẹ nhàng, tốt cho sức khỏe."
   },
   {
     "name": "Bánh canh giò heo",
@@ -569,7 +569,7 @@ export const foods:Food[]=[
     "sub": "Tô thường • Việt Nam",
     "veg": false,
     "image": 79,
-    "quip": ""
+    "quip": "Giò heo béo ngậy, sợi bánh canh dẻo mềm."
   },
   {
     "name": "Miến gà",
@@ -577,7 +577,7 @@ export const foods:Food[]=[
     "sub": "Tô thường • Việt Nam",
     "veg": false,
     "image": 80,
-    "quip": ""
+    "quip": "Sợi miến dai trong, nước dùng ngọt thanh."
   },
   {
     "name": "Miến lươn",
@@ -585,7 +585,7 @@ export const foods:Food[]=[
     "sub": "Tô thường • Việt Nam",
     "veg": false,
     "image": 81,
-    "quip": ""
+    "quip": "Lươn giòn hay lươn mềm đều đỉnh cao."
   },
   {
     "name": "Cháo vịt",
@@ -593,7 +593,7 @@ export const foods:Food[]=[
     "sub": "Phần có thịt vịt • Việt Nam",
     "veg": false,
     "image": 82,
-    "quip": ""
+    "quip": "Bát cháo ấm nóng, chấm mắm gừng cay."
   },
   {
     "name": "Cháo lòng",
@@ -601,7 +601,7 @@ export const foods:Food[]=[
     "sub": "Phần có lòng • Việt Nam",
     "veg": false,
     "image": 83,
-    "quip": ""
+    "quip": "Đậm đà dân dã, ấm bụng trưa hè."
   },
   {
     "name": "Bánh hỏi heo quay",
@@ -609,7 +609,7 @@ export const foods:Food[]=[
     "sub": "Một phần • Việt Nam",
     "veg": false,
     "image": 84,
-    "quip": ""
+    "quip": "Heo quay giòn rụm ăn kèm bánh hỏi."
   },
   {
     "name": "Nem nướng",
@@ -617,7 +617,7 @@ export const foods:Food[]=[
     "sub": "Phần cuốn đủ bữa • Việt Nam",
     "veg": false,
     "image": 85,
-    "quip": ""
+    "quip": "Cuốn bánh tráng, chấm sốt béo ngậy."
   },
   {
     "name": "Dimsum",
@@ -625,7 +625,7 @@ export const foods:Food[]=[
     "sub": "Khoảng 3 xửng / người",
     "veg": false,
     "image": 86,
-    "quip": ""
+    "quip": "Nhẹ nhàng tinh tế, chạm tới trái tim."
   },
   {
     "name": "Mì hoành thánh",
@@ -633,7 +633,7 @@ export const foods:Food[]=[
     "sub": "Tô mì & hoành thánh",
     "veg": false,
     "image": 87,
-    "quip": ""
+    "quip": "Hoành thánh nhân thịt, nước dùng ngọt xương."
   },
   {
     "name": "Mì bò Đài Loan",
@@ -641,7 +641,7 @@ export const foods:Food[]=[
     "sub": "Bò hầm & mì • Đài Loan",
     "veg": false,
     "image": 88,
-    "quip": ""
+    "quip": "Thịt bò hầm đậm đà, chuẩn vị Đài Bắc."
   },
   {
     "name": "Mì xào giòn",
@@ -649,7 +649,7 @@ export const foods:Food[]=[
     "sub": "Hải sản & rau củ",
     "veg": false,
     "image": 89,
-    "quip": ""
+    "quip": "Sợi mì giòn tan rưới sốt hải sản."
   },
   {
     "name": "Cơm niêu Singapore",
@@ -657,7 +657,7 @@ export const foods:Food[]=[
     "sub": "Một niêu / người",
     "veg": false,
     "image": 90,
-    "quip": ""
+    "quip": "Lớp cháy giòn rụm, sốt đậm đà."
   },
   {
     "name": "Cơm gà Hải Nam",
@@ -665,7 +665,7 @@ export const foods:Food[]=[
     "sub": "Gà luộc & cơm thơm",
     "veg": false,
     "image": 91,
-    "quip": ""
+    "quip": "Cơm nấu nước luộc gà thơm nức nở."
   },
   {
     "name": "Cơm gà trứng Nhật",
@@ -673,7 +673,7 @@ export const foods:Food[]=[
     "sub": "Oyakodon • Nhật Bản",
     "veg": false,
     "image": 92,
-    "quip": ""
+    "quip": "Trứng mềm béo ngậy quyện thịt gà."
   },
   {
     "name": "Cơm tempura",
@@ -681,7 +681,7 @@ export const foods:Food[]=[
     "sub": "Tendon • Nhật Bản",
     "veg": false,
     "image": 93,
-    "quip": ""
+    "quip": "Hải sản chiên giòn rưới sốt ngọt."
   },
   {
     "name": "Mì cay Hàn Quốc",
@@ -689,7 +689,7 @@ export const foods:Food[]=[
     "sub": "Một tô • Hàn Quốc",
     "veg": false,
     "image": 94,
-    "quip": ""
+    "quip": "Thách thức cấp độ cay, xé lưỡi bùng nổ."
   },
   {
     "name": "Mì tương đen",
@@ -697,7 +697,7 @@ export const foods:Food[]=[
     "sub": "Jajangmyeon • Hàn Quốc",
     "veg": false,
     "image": 95,
-    "quip": ""
+    "quip": "Trộn đều màu đen, ngon chuẩn phim Hàn."
   },
   {
     "name": "Mì lạnh Hàn Quốc",
@@ -705,7 +705,7 @@ export const foods:Food[]=[
     "sub": "Naengmyeon • Hàn Quốc",
     "veg": false,
     "image": 96,
-    "quip": ""
+    "quip": "Sợi mì dai lạnh, đập tan cái nóng."
   },
   {
     "name": "Canh kimchi kèm cơm",
@@ -713,7 +713,7 @@ export const foods:Food[]=[
     "sub": "Kimchi jjigae • Hàn Quốc",
     "veg": false,
     "image": 97,
-    "quip": ""
+    "quip": "Chua cay ấm bụng, ăn cùng cơm nóng."
   },
   {
     "name": "Canh đậu hũ non kèm cơm",
@@ -721,7 +721,7 @@ export const foods:Food[]=[
     "sub": "Sundubu jjigae • Hàn Quốc",
     "veg": false,
     "image": 98,
-    "quip": ""
+    "quip": "Đậu hũ mềm tan, nước canh cay nồng."
   },
   {
     "name": "Gà phô mai Hàn Quốc",
@@ -729,7 +729,7 @@ export const foods:Food[]=[
     "sub": "Phần một người",
     "veg": false,
     "image": 99,
-    "quip": ""
+    "quip": "Gà cay ngập trong biển phô mai kéo sợi."
   },
   {
     "name": "Cơm chiên kimchi",
@@ -737,7 +737,7 @@ export const foods:Food[]=[
     "sub": "Kimchi bokkeumbap • Hàn Quốc",
     "veg": false,
     "image": 100,
-    "quip": ""
+    "quip": "Chua cay mặn ngọt, thêm trứng ốp la."
   },
   {
     "name": "Lẩu Thái một người",
@@ -745,7 +745,7 @@ export const foods:Food[]=[
     "sub": "Kèm bún hoặc mì",
     "veg": false,
     "image": 101,
-    "quip": ""
+    "quip": "Chua cay chuẩn vị, ăn một mình vẫn vui."
   },
   {
     "name": "Lẩu sukiyaki một người",
@@ -753,7 +753,7 @@ export const foods:Food[]=[
     "sub": "Thịt, rau & mì • Nhật Bản",
     "veg": false,
     "image": 102,
-    "quip": ""
+    "quip": "Nhúng thịt bò vào trứng sống béo ngậy."
   },
   {
     "name": "Cà ri Ấn Độ & naan",
@@ -761,7 +761,7 @@ export const foods:Food[]=[
     "sub": "Cà ri gà kèm bánh naan",
     "veg": false,
     "image": 103,
-    "quip": ""
+    "quip": "Xé bánh Naan chấm sốt cà ri đậm đà."
   },
   {
     "name": "Cơm biryani",
@@ -769,7 +769,7 @@ export const foods:Food[]=[
     "sub": "Cơm gia vị & gà • Ấn Độ",
     "veg": false,
     "image": 104,
-    "quip": ""
+    "quip": "Thơm lừng gia vị Ấn, hạt cơm Basmati."
   },
   {
     "name": "Bánh xèo Nhật",
@@ -777,7 +777,7 @@ export const foods:Food[]=[
     "sub": "Okonomiyaki • Nhật Bản",
     "veg": false,
     "image": 105,
-    "quip": ""
+    "quip": "Sốt Okonomi thơm lừng, cá bào nhảy múa."
   },
   {
     "name": "Sandwich",
@@ -785,7 +785,7 @@ export const foods:Food[]=[
     "sub": "Phần bánh kẹp đủ bữa",
     "veg": false,
     "image": 106,
-    "quip": ""
+    "quip": "Nhanh gọn tiện lợi, đầy đủ dinh dưỡng."
   },
   {
     "name": "Bánh mì kebab",
@@ -793,7 +793,7 @@ export const foods:Food[]=[
     "sub": "Doner kebab • Thổ Nhĩ Kỳ",
     "veg": false,
     "image": 107,
-    "quip": ""
+    "quip": "Bánh tam giác nướng giòn, thịt nướng thơm phức."
   },
   {
     "name": "Bánh cuộn gà",
@@ -801,7 +801,7 @@ export const foods:Food[]=[
     "sub": "Chicken wrap",
     "veg": false,
     "image": 108,
-    "quip": ""
+    "quip": "Cuộn gọn gàng, ăn không sợ rớt."
   },
   {
     "name": "Burrito",
@@ -809,7 +809,7 @@ export const foods:Food[]=[
     "sub": "Cuộn cơm, đậu & thịt • Mexico",
     "veg": false,
     "image": 109,
-    "quip": ""
+    "quip": "Một cuộn chật nịch, chắc bụng cả ngày."
   },
   {
     "name": "Taco",
@@ -817,7 +817,7 @@ export const foods:Food[]=[
     "sub": "Phần 3 bánh • Mexico",
     "veg": false,
     "image": 110,
-    "quip": ""
+    "quip": "Vỏ giòn rụm, nhân đậm đà phong cách Mexico."
   },
   {
     "name": "Quesadilla",
@@ -825,7 +825,7 @@ export const foods:Food[]=[
     "sub": "Phô mai & gà • Mexico",
     "veg": false,
     "image": 111,
-    "quip": ""
+    "quip": "Bánh kẹp phô mai nướng chảy béo ngậy."
   },
   {
     "name": "Fish & chips",
@@ -833,7 +833,7 @@ export const foods:Food[]=[
     "sub": "Cá chiên & khoai tây",
     "veg": false,
     "image": 112,
-    "quip": ""
+    "quip": "Cá chiên giòn chấm sốt Tartar chuẩn Anh."
   },
   {
     "name": "Gà nướng kèm khoai tây",
@@ -841,7 +841,7 @@ export const foods:Food[]=[
     "sub": "Phần một người",
     "veg": false,
     "image": 113,
-    "quip": ""
+    "quip": "Gà nướng mọng nước kèm khoai tây chiên."
   },
   {
     "name": "Mac & cheese",
@@ -849,7 +849,7 @@ export const foods:Food[]=[
     "sub": "Nui phô mai • Phần chính",
     "veg": false,
     "image": 114,
-    "quip": ""
+    "quip": "Béo ngậy phô mai, món ngon an ủi tâm hồn."
   },
   {
     "name": "Mì Ý pesto",
@@ -857,7 +857,7 @@ export const foods:Food[]=[
     "sub": "Húng quế & gà • Ý",
     "veg": false,
     "image": 115,
-    "quip": ""
+    "quip": "Sốt húng quế xanh mát, thơm dịu béo bùi."
   },
   {
     "name": "Mì Ý cá hồi",
@@ -865,7 +865,7 @@ export const foods:Food[]=[
     "sub": "Sốt kem cá hồi • Ý",
     "veg": false,
     "image": 116,
-    "quip": ""
+    "quip": "Sốt kem béo ngậy quyện miếng cá hồi."
   },
   {
     "name": "Cơm risotto",
@@ -873,7 +873,7 @@ export const foods:Food[]=[
     "sub": "Cơm Ý • Phần chính",
     "veg": false,
     "image": 117,
-    "quip": ""
+    "quip": "Sánh mịn chuẩn phong cách Ý xa xỉ."
   },
   {
     "name": "Gnocchi",
@@ -881,7 +881,7 @@ export const foods:Food[]=[
     "sub": "Bánh khoai tây kiểu Ý",
     "veg": false,
     "image": 118,
-    "quip": ""
+    "quip": "Bánh khoai tây dẻo mềm ngập trong sốt."
   },
   {
     "name": "Falafel kèm pita",
@@ -889,90 +889,90 @@ export const foods:Food[]=[
     "sub": "Đậu gà, rau & bánh pita",
     "veg": true,
     "image": 119,
-    "quip": ""
+    "quip": "Đậu gà chiên giòn, món chay Trung Đông độc đáo."
   },
-{
-  "name": "Nui xào bò",
-  "price": 50,
-  "sub": "Nui, bò & rau • Việt Nam",
-  "quip": "Nui deadline lại. Ăn trước đã.",
-  "image": 120
-},
-{
-  "name": "Cháo gà",
-  "price": 45,
-  "sub": "Gà xé & hành tiêu • Việt Nam",
-  "quip": "Một bát hồi máu giữa giờ làm.",
-  "image": 121
-},
-{
-  "name": "Bò kho bánh mì",
-  "price": 65,
-  "sub": "Bò hầm & bánh mì • Việt Nam",
-  "quip": "Chấm bánh mì. Đừng chấm công muộn.",
-  "image": 122
-},
-{
-  "name": "Xôi mặn",
-  "price": 35,
-  "sub": "Gà, thịt hoặc chả • Việt Nam",
-  "quip": "Dẻo dai đến hết ca chiều.",
-  "image": 123
-},
-{
-  "name": "Bánh mì chảo",
-  "price": 45,
-  "sub": "Trứng, pa tê & xúc xích • Việt Nam",
-  "quip": "Nóng hơn cả nhóm chat công ty.",
-  "image": 124
-},
-{
-  "name": "Cơm xá xíu",
-  "price": 55,
-  "sub": "Thịt xá xíu & cơm • Món Hoa",
-  "quip": "Xá xíu một chút. No cả buổi.",
-  "image": 125
-},
-{
-  "name": "Cơm vịt quay",
-  "price": 75,
-  "sub": "Vịt quay & cơm • Món Hoa",
-  "quip": "Da giòn. Tinh thần cũng lên.",
-  "image": 126
-},
-{
-  "name": "Mì xá xíu",
-  "price": 55,
-  "sub": "Mì trứng & thịt xá xíu • Món Hoa",
-  "quip": "Sợi mì dài hơn thời gian nghỉ trưa.",
-  "image": 127
-},
-{
-  "name": "Mì udon xào",
-  "price": 110,
-  "sub": "Hải sản & rau • Nhật Bản",
-  "quip": "Sợi to. Kèo thơm.",
-  "image": 128
-},
-{
-  "name": "Burger gà & khoai tây",
-  "price": 80,
-  "sub": "Gà giòn & khoai tây • Quốc tế",
-  "quip": "Cắn một phát. Hết phân vân.",
-  "image": 129
-},
-{
-  "name": "Mì Ý sốt cà chua & phô mai",
-  "price": 170,
-  "sub": "Cà chua & mascarpone • Ý",
-  "quip": "Sốt cà chua cứu một ngày nhạt nhẽo.",
-  "image": 130
-},
-{
-  "name": "Miến xào",
-  "price": 55,
-  "sub": "Thịt & rau • Việt Nam",
-  "quip": "Miến này không phải miếng mồi deadline.",
-  "image": 131
-}
+  {
+    "name": "Nui xào bò",
+    "price": 50,
+    "sub": "Nui, bò & rau • Việt Nam",
+    "quip": "Nui deadline lại. Ăn trước đã.",
+    "image": 120
+  },
+  {
+    "name": "Cháo gà",
+    "price": 45,
+    "sub": "Gà xé & hành tiêu • Việt Nam",
+    "quip": "Một bát hồi máu giữa giờ làm.",
+    "image": 121
+  },
+  {
+    "name": "Bò kho bánh mì",
+    "price": 65,
+    "sub": "Bò hầm & bánh mì • Việt Nam",
+    "quip": "Chấm bánh mì. Đừng chấm công muộn.",
+    "image": 122
+  },
+  {
+    "name": "Xôi mặn",
+    "price": 35,
+    "sub": "Gà, thịt hoặc chả • Việt Nam",
+    "quip": "Dẻo dai đến hết ca chiều.",
+    "image": 123
+  },
+  {
+    "name": "Bánh mì chảo",
+    "price": 45,
+    "sub": "Trứng, pa tê & xúc xích • Việt Nam",
+    "quip": "Nóng hơn cả nhóm chat công ty.",
+    "image": 124
+  },
+  {
+    "name": "Cơm xá xíu",
+    "price": 55,
+    "sub": "Thịt xá xíu & cơm • Món Hoa",
+    "quip": "Xá xíu một chút. No cả buổi.",
+    "image": 125
+  },
+  {
+    "name": "Cơm vịt quay",
+    "price": 75,
+    "sub": "Vịt quay & cơm • Món Hoa",
+    "quip": "Da giòn. Tinh thần cũng lên.",
+    "image": 126
+  },
+  {
+    "name": "Mì xá xíu",
+    "price": 55,
+    "sub": "Mì trứng & thịt xá xíu • Món Hoa",
+    "quip": "Sợi mì dài hơn thời gian nghỉ trưa.",
+    "image": 127
+  },
+  {
+    "name": "Mì udon xào",
+    "price": 110,
+    "sub": "Hải sản & rau • Nhật Bản",
+    "quip": "Sợi to. Kèo thơm.",
+    "image": 128
+  },
+  {
+    "name": "Burger gà & khoai tây",
+    "price": 80,
+    "sub": "Gà giòn & khoai tây • Quốc tế",
+    "quip": "Cắn một phát. Hết phân vân.",
+    "image": 129
+  },
+  {
+    "name": "Mì Ý sốt cà chua & phô mai",
+    "price": 170,
+    "sub": "Cà chua & mascarpone • Ý",
+    "quip": "Sốt cà chua cứu một ngày nhạt nhẽo.",
+    "image": 130
+  },
+  {
+    "name": "Miến xào",
+    "price": 55,
+    "sub": "Thịt & rau • Việt Nam",
+    "quip": "Miến này không phải miếng mồi deadline.",
+    "image": 131
+  }
 ].map(food=>({...food,rarity:priceRarity(food.price)}));
